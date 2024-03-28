@@ -1,0 +1,17 @@
+% Q1 - (1)
+borders(australia, Aus_Border).
+
+
+% Q1 - (2)
+borders(france, Fra_Border),
+borders(spain, Spa_Border),
+Fra_Border = Spa_Border.
+% OR
+borders(france, X),
+borders(spain, X).
+
+
+% Q1 - (3)
+borders(france, X),
+borders(spain, X),
+country(X, _, _, _, _, _, _, _).
